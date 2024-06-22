@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(27, 27, 27);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #fff;
+  width: 310px;
+  /* height: 450px; */
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card-img {
+  height: 190px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+  background-image: url("peter-broomfield-m3m-lnR90uM-unsplash.jpg");
+}
+
+.car-2 {
+  background-image: url("oliur-ovrOPhu8vSw-unsplash.jpg");
+}
+
+.car-3 {
+  background-image: url("evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg");
+}
+
+.car-4 {
+  background-image: url("erik-mclean-ZRns2R5azu0-unsplash.jpg");
+}
+
+.car-5 {
+  background-image: url("dhiva-krishna-X16zXcbxU4U-unsplash.jpg");
+}
+
+.car-6 {
+  background-image: url("david-leveque-esvWH-owWug-unsplash.jpg");
+}
+
+.car-7 {
+  background-image: url("campbell-3ZUsNJhi_Ik-unsplash.jpg");
+}
+
+.car-8 {
+  background-image: url("adam-stefanca-hdMSxGizchk-unsplash.jpg");
+}
+.card h2 {
+    padding: 10px;
+  }
+  
+.card p {
+  padding: 10px;
+}
+
+.card a {
+  background-color: black;
+  color: #fff;
+  display: block;
+  padding: 15px 20px;
+  text-align: center;
+  margin: 20px 50px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+}
